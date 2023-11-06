@@ -21,3 +21,12 @@ pip install pynput
 ## Usage
 
 (todo)
+
+## Troubleshooting
+
+### ImportError: this platform is not supported
+```
+ImportError: this platform is not supported: ('failed to acquire X connection: Bad display name ""', DisplayNameError(''))
+```
+
+This program will not run correctly on SSH. Try running natively.
